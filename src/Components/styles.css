@@ -1,4 +1,3 @@
-
 html,
 body {
   --black: hsl(240, 6%, 13%);
@@ -19,4 +18,3 @@ body {
   text-align: center;
   color: var(--grey);
 }
-

@@ -4,20 +4,15 @@ import AvatarBadge from "../Components/Avatar/Avatar";
 import Aboutme from "../Components/AboutMe/Aboutme";
 import { Cartao } from "./styles";
 
-
-
 function Card() {
   return (
-    <body>
-      
-      <Cartao>
-        <div className="content">
-          <AvatarBadge />
-          <Aboutme />
-          <SocialsList />
-        </div>
-      </Cartao>
-    </body>
+    <Cartao>
+      <div className="content">
+        <AvatarBadge />
+        <Aboutme />
+        <SocialsList />
+      </div>
+    </Cartao>
   );
 }
 
