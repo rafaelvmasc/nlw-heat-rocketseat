@@ -1,0 +1,22 @@
+
+html,
+body {
+  --black: hsl(240, 6%, 13%);
+  --grey: hsl(240, 9%, 89%);
+  height: 100%;
+  background-color: #363537;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--grey);
+}
+
